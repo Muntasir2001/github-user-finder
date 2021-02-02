@@ -1,0 +1,61 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+/* utilities */
+body {
+   background: #1a1d21;
+}
+
+h2 {
+   font-size: 3.6rem;
+}
+
+h3 {
+   font-size: 3rem;
+}
+
+label {
+   font-size: 1.5rem;
+}
+
+/* homepage */
+#nav {
+   min-width: 100px;
+   background-color: #1E2226;
+   color: #e79e19;
+   padding: 20px;
+}
+
+.search-user {
+   border: 2px solid #fff;
+   border-radius: 10px;
+   margin-top: 50px;
+   color: #E3E3E3;
+   padding: 15px;
+}
+
+.search-user .search-form form label {
+   font-weight: 20;
+}
+
+.search-user .search-form form .input-field input[type="text"] {
+   max-width: 1100px;
+   margin-top: 20px;
+   font-size: 1.5rem;
+   color: black;
+   font-weight: 400;
+}
+
+.search-user .search-form form .input-field input[type="button"] {
+   border-color: #E3E3E3;
+   color: #E3E3E3;
+   margin-left: 5px;
+}
+
+.search-user .search-form form .input-field input[type="button"]:hover {
+   color: #e79e19;
+   border-color: #e79e19;
+}
