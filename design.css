@@ -59,3 +59,30 @@ label {
    color: #e79e19;
    border-color: #e79e19;
 }
+
+/* profile section */
+#profile {
+   display: flex;
+   margin-top: 70px;
+}
+
+#profile .profile-left {
+   display: flex;
+   flex-flow: column;
+}
+
+#profile .profile-left img {
+   width: 200px;
+   border-radius: 50%;
+}
+
+#profile .profile-left a {
+   display: flex;
+   color: #E3E3E3;
+   text-decoration: none;
+   border: 1px solid #E3E3E3;
+}
+
+#profile .profile-left a img {
+   width: 20px;
+}
