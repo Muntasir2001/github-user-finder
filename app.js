@@ -21,6 +21,7 @@ searchUserForm.addEventListener('submit', (e) => {
       console.log(text);
 
       //make http call
+      //for getting user and user bio
       github.getUser(text)
          .then(data => {
             if (data.profile.message === 'Not Found') {
@@ -29,9 +30,10 @@ searchUserForm.addEventListener('submit', (e) => {
             } else {
                //show profile ui.js
                ui.showProfile(data.profile);
+               ui.showRepo(data.repos);
             }
          })
-         
+
    } else {
       //clear profile
    }
