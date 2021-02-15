@@ -23,15 +23,15 @@ searchUserForm.addEventListener('submit', (e) => {
       //make http call
       github.getUser(text)
          .then(data => {
-            if (data.profile.message == 'Not found') {
+            if (data.profile.message === 'Not Found') {
                //show alert - ui.js
-
+               ui.showAlert('User not found');
             } else {
                //show profile ui.js
                ui.showProfile(data.profile);
             }
          })
-      
+         
    } else {
       //clear profile
    }

@@ -30,6 +30,20 @@ p {
    max-width: 1140px;
 }
 
+/* warning message system */
+.warning {
+   border: 4px solid #D9004C;
+   color: #E3E3E3;
+   padding: 10px;
+   align-items: center;
+   border-radius: 10px;
+   background: rgb(217,0,76, 0.4);
+}
+
+.warning h5 {
+   font-size: 2rem;
+}
+
 /* homepage */
 #nav {
    min-width: 100px;
@@ -58,13 +72,13 @@ p {
    font-weight: 400;
 }
 
-.search-user .search-form form .input-field input[type="button"] {
+.search-user .search-form form .input-field input[type="submit"] {
    border-color: #E3E3E3;
    color: #E3E3E3;
    margin-left: 5px;
 }
 
-.search-user .search-form form .input-field input[type="button"]:hover {
+.search-user .search-form form .input-field input[type="submit"]:hover {
    color: #e79e19;
    border-color: #e79e19;
 }
@@ -72,8 +86,8 @@ p {
 /* profile section */
 #profile {
    display: flex;
-   margin-top: 70px;
-   border: 2px solid #E3E3E3;
+   margin-top: 50px;
+   /* border: 2px solid #E3E3E3; */
    border-radius: 10px;
    padding: 15px;
 }
